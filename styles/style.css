@@ -94,7 +94,7 @@ h1, p{
   padding: 100px 0 140px;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
   background-color: #fff;
   color: #000000;
 }
@@ -124,6 +124,7 @@ h1, p{
  justify-content: center;
  gap: 40px;
  padding-left: 0;
+ list-style-type: none;
 }
 
 .card {
@@ -134,7 +135,6 @@ h1, p{
   width: 360px;
   height: 420px;
   margin-top: auto;
-  list-style-type: none;
 }
 
 .card__content {
@@ -160,9 +160,8 @@ h1, p{
 }
 
 .card__footer {
-  margin: 0;
+  margin-top: auto;
   font-size: 14px;
   line-height: 20px;
   color: #838383;
-  padding-top: 4px;
 }
