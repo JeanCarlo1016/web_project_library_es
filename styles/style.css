@@ -351,18 +351,22 @@ h1, p{
   box-sizing: border-box;
   background-color: black;
   color: white;
+  position: relative;
+  padding: 60px 80px;
 }
 
 .footer__columns {
   display: flex;
-  padding: 60px 80px;
   margin-left: auto;
   justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 100px;
 }
 .footer__columns-second{
   display: flex;
   column-gap: 80px;
-  align-items: baseline;
+  margin-left: auto;
+  align-items: flex-start;
 }
 
 .footer__column_content_hours {
@@ -387,19 +391,25 @@ h1, p{
   margin: 0;
 }
 
-.footer__list-item {
+.footer__list-itemfirst {
+  margin-bottom: 16px;
 }
 
-.footer__column-link {
+.footer__list-link {
   color: white;
   text-decoration: none;
-  padding-left: 10px;
+  margin: 0;
 }
 
 .footer__social-icon {
+  margin: 0px;
   width: 16px;
   height: 16px;
+  padding-right: 10px;
 }
 
 .footer__copyright {
+  position: absolute;
+  top:240px;
+  left: 80px;
 }
