@@ -349,7 +349,7 @@ h1, p{
 
 .footer {
   box-sizing: border-box;
-  background-color: black;
+  background-color: #1f1f1f;
   color: white;
   position: relative;
   padding: 60px 80px;
@@ -401,17 +401,21 @@ h1, p{
   color: white;
   text-decoration: none;
   margin: 0;
+  display: flex;
+  align-items: flex-start;
+  column-gap: 10px;
 }
 
 .footer__social-icon {
   margin: 0px;
   width: 16px;
   height: 16px;
-  padding-right: 10px;
 }
 
 .footer__copyright {
   position: absolute;
-  top:240px;
+  margin-top:100px;
+  top:140px;
   left: 80px;
+
 }
