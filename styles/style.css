@@ -32,7 +32,6 @@ h1, p{
 }
 
 .nav__links {
-  /* Restablece los estilos predeterminados de list aquí */
   display: flex;
   column-gap: 20px;
   list-style-type: none;
@@ -47,7 +46,6 @@ h1, p{
 }
 
 .header__content {
-  /* Agrega las propiedades flex aquí */
   display: flex;
   justify-content: space-between;
 }
@@ -249,31 +247,26 @@ h1, p{
 }
 
 .person_name_feynman {
-  /* Utiliza los valores correctos de las propiedades top/right/bottom/left para posicionar el elemento */
   top:-30px;
   left:319px;
 }
 
 .person_name_burbidge {
-  /* Utiliza los valores correctos de las propiedades top/right/bottom/left para posicionar el elemento */
   top: 96px;
   right: 125px;
 }
 
 .person_name_cannon {
-  /* Utiliza los valores correctos de las propiedades top/right/bottom/left para posicionar el elemento */
   bottom: 18px;
   right: 216px;
 }
 
 .person_name_mitchell {
-  /* Utiliza los valores correctos de las propiedades top/right/bottom/left para posicionar el elemento */
   bottom: 82px;
   left: 142px;
 }
 
 .person_name_tarter {
-  /* Utiliza los valores correctos de las propiedades top/right/bottom/left para posicionar el elemento */
   top: 79px;
   left: 159px;
 }
@@ -321,13 +314,10 @@ h1, p{
   display: flex;
   justify-content: center;
   column-gap: 40px;
-  /* Agrega estilos */
 }
 
 .step {
   flex-basis: 220px;
-  /* Agrega estilos */
-
 }
 
 .step__title {
@@ -362,12 +352,6 @@ h1, p{
   align-items: flex-start;
   margin-bottom: 100px;
 }
-/* .footer__column{
-  display: flex;
-  column-gap: 80px;
-  margin-left: auto;
-  align-items: flex-start;
-} */
 
 .footer__column_content_hours {
   margin-left:auto ;
